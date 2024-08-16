@@ -1,5 +1,7 @@
 # React Shared Worker Demo
 
+[Working example](https://emredenizx.github.io/react-shared-worker-demo/)
+
 ### Overview
 
 JavaScript is inherently single-threaded, meaning it executes code sequentially, one operation at a time. This can lead to performance bottlenecks, particularly when executing long-running tasks like extensive computations or processing responses from frequent API calls. To overcome this limitation, [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) provide a way to run scripts in background threads, allowing the main thread to remain responsive.
